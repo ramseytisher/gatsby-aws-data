@@ -9,6 +9,11 @@
             "UnauthRoleName": "gatsby-aws-data-dev-20191023162907-unauthRole",
             "StackName": "gatsby-aws-data-dev-20191023162907",
             "StackId": "arn:aws:cloudformation:us-east-2:208254545607:stack/gatsby-aws-data-dev-20191023162907/c3d17720-f5d3-11e9-91c5-069569a529ae"
+        },
+        "categories": {
+            "auth": {
+                "gatsbyawsdataabad1a17": {}
+            }
         }
     }
 }

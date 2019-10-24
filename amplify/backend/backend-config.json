@@ -17,5 +17,11 @@
 			}
 		}
 	},
-	"auth": {}
+	"auth": {
+		"gatsbyawsdataabad1a17": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
 }

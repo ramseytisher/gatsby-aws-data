@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { withAuthenticator } from "aws-amplify-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,4 +16,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default withAuthenticator(IndexPage, true)
