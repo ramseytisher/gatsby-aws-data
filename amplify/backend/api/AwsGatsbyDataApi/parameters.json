@@ -1,5 +1,5 @@
 {
-    "AppSyncApiName": "GatsbyDataAPI",
+    "AppSyncApiName": "AwsGatsbyDataApi",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": "false"
 }

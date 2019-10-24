@@ -1,6 +1,6 @@
 projects:
-  GatsbyDataAPI:
-    schemaPath: amplify/backend/api/GatsbyDataAPI/build/schema.graphql
+  AwsGatsbyDataApi:
+    schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
     excludes:
@@ -10,6 +10,3 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
-extensions:
-  amplify:
-    version: 3

@@ -1,6 +1,6 @@
 {
 	"api": {
-		"GatsbyDataAPI": {
+		"AwsGatsbyDataApi": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
@@ -9,12 +9,13 @@
 					"defaultAuthentication": {
 						"authenticationType": "API_KEY",
 						"apiKeyConfig": {
-							"description": "GatsbyDataApiKey",
-							"apiKeyExpirationDays": 7
+							"description": "AwsGatsbyDataKey",
+							"apiKeyExpirationDays": "30"
 						}
 					}
 				}
 			}
 		}
-	}
+	},
+	"auth": {}
 }

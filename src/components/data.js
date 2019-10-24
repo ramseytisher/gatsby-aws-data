@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
-import { listAccounts as ListAccounts } from '../graphql/queries'
+import { listBlogs as ListBlogs } from '../graphql/queries'
 
 import { API, graphqlOperation } from 'aws-amplify'
 
 export default () => {
-    const [accounts, setAccounts] = useState([])
+    const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
         getData()
@@ -13,17 +13,16 @@ export default () => {
 
     async function getData() {
         try {
-            const accountData = await API.graphql(graphqlOperation(ListAccounts))
-            console.log('accountData: ', accountData)
-            setAccounts(accountData.data.listAccounts.items)
+            const blogData = await API.graphql(graphqlOperation(ListBlogs))
+            setBlogs(blogData.data.listBlogs.items)
         } catch (err) {
-            console.log('error fetching accounts ... ', err)
+            console.log('error fetching blogs ... ', err)
         }
     }
 
     return (
         <div>
-            <pre>{JSON.stringify(accounts, null, 2)}</pre>
+            <pre>{JSON.stringify(blogs, null, 2)}</pre>
         </div>
     )
 

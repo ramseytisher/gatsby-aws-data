@@ -3,8 +3,8 @@ import { Formik } from 'formik'
 
 import { API, graphqlOperation } from 'aws-amplify'
 
-import { createAccount as CreateAccount } from '../graphql/mutations'
-import { listAccounts as ListAccounts } from '../graphql/queries'
+import { createItem as CreateItem } from '../graphql/mutations'
+import { listItems as ListAccounts } from '../graphql/queries'
 
 const initialState = {
     first: "",
