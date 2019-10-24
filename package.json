@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "aws-amplify": "^1.2.2",
+    "aws-amplify-react": "^2.5.2",
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
@@ -16,7 +18,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

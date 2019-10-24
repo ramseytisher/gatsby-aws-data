@@ -1,0 +1,5 @@
+type Account @model {
+  id: ID!
+  first: String!
+  last: String!
+}

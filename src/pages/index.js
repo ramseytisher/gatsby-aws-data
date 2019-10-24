@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import Data from "../components/data"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -13,6 +15,7 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
+      <Data />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
