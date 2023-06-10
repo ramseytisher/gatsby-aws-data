@@ -8,7 +8,7 @@
     "aws-amplify": "^1.2.2",
     "aws-amplify-react": "^2.5.2",
     "formik": "^1.5.8",
-    "gatsby": "^2.16.1",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
